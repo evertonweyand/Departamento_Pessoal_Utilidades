@@ -1,5 +1,3 @@
-
-
 h1 {
     color: blue;
 }
@@ -14,31 +12,16 @@ h1 {
 .titulo_no_centro {
   margin: auto;
   width: 60%;
-  border: 3px solid #73AD21;
+  /*border: 3px solid #73AD21;*/
   padding: 10px;
   text-align: center;
   }
 
- /* 
-  table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-  }
-  
-  th {
-    padding: 15px;
+  .titulo_no_centro_com_borda {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
     text-align: center;
-  }
-
-  td {
-    padding: 15px;
-    text-align: left;
-  }
-    
-
-  table#t01 {
-    width: 100%;    
-    background-color: #f1f1c1;
-  }
+    }
   
-  */
