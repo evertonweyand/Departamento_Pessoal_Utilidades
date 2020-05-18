@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/modelo.css">
+    <title>Cálculo Previdência Mensal</title>
+</head>
+<body>
+    <div>
+        <h1 class="titulo_no_centro">Calculadora Previdenciária</h1>
+        <div class="div_center">
+            <form id="form_bc">
+                <label for="base_calculo">Base de cálculo:</label>
+                <input type="text" id="base_calculo" autofocus placeholder="Digite aqui a base de cálculo"   
+                       onkeypress="return (event.charCode >= 48 && event.charCode <= 57) ||  
+                       event.charCode == 44 || event.charCode == 0 ">
+                <button type="button" onclick="calcular()">Calcular</button>
+              </form>  
+        </div>
+    </div>
+    <div id="div_resultado" class="div_center">
+        <table id="t01">
+            <tr>
+                <th>Faixa</th>
+                <th>Alíquota</th>
+                <th>Tabela I.N.S.S</th> 
+                <th>Base cálculo</th>
+                <th>I.N.S.S</th>
+                <th>Acumulado</th>
+                <th>Transportar</th>
+            </tr>
+            <tr>
+                <td id="fx1">1</td>
+                <td id="fx1_aliquota">0</td>
+                <td id="fx1_tabinss">0</td> 
+                <td id="fx1_bc">0</td>
+                <td id="fx1_inss">0</td>
+                <td id="fx1_acumulado">0</td>
+                <td id="fx1_transportar">0</td>
+            </tr>
+            <tr>
+                <td id="fx2">2</td>
+                <td id="fx2_aliquota">0</td>
+                <td id="fx2_tabinss">0</td> 
+                <td id="fx2_bc">0</td>
+                <td id="fx2_inss">0</td>
+                <td id="fx2_acumulado">0</td>
+                <td id="fx2_transportar">0</td>
+            </tr>
+            <tr>
+                <td id="fx3">3</td>
+                <td id="fx3_aliquota">0</td>
+                <td id="fx3_tabinss">0</td> 
+                <td id="fx3_bc">0</td>
+                <td id="fx3_inss">0</td>
+                <td id="fx3_acumulado">0</td>
+                <td id="fx3_transportar">0</td>
+            </tr>
+            <tr>
+                <td id="fx4">4</td>
+                <td id="fx4_aliquota">0</td>
+                <td id="fx4_tabinss">0</td> 
+                <td id="fx4_bc">0</td>
+                <td id="fx4_inss">0</td>
+                <td id="fx4_acumulado">0</td>
+                <td id="fx4_transportar">0</td>
+            </tr>
+          </table>
+          
+          <br><br>
+          <h2 id="h2_result" class="titulo_no_centro"></h2>                    
+          <br><br>
+
+          <form> 
+            <input type="button" value="Voltar" onClick="history.go(-1)"> 
+            <!-- <input type="button" value="Avançar" onCLick="history.forward()">  -->
+            <!-- <input type="button" value="Atualizar" onClick="history.go(0)">  -->
+          </form>
+    </div>
+
+    <script src="../js/calcular_inss.js"></script>
+</body>
+</html>
