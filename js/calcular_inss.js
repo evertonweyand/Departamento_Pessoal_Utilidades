@@ -1,7 +1,3 @@
-function mostrar_teste(){
-    document.getElementById('h2_result').innerText = 'teste';
-}
-
 function Menor_Valor(vlr1, vlr2) { 
     return Math.min(vlr1, vlr2);
 }
@@ -40,6 +36,7 @@ function calcular(){
 
     zerar_campos();
 
+    //Tabela do INSS
     const faixa1_vlr  = 1045.00;
     const faixa1_aliq =    7.50;
     const faixa2_vlr  = 2089.60;
