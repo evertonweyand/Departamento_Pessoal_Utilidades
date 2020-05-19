@@ -8,26 +8,24 @@
     <link rel="stylesheet" href="../css/modelo.css">
     <link rel="stylesheet" href="../css/table.css">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">    
   
     <title>Cálculo Previdência Mensal</title>
 </head>
-<body>
+<body onload="calcular()">
     <div>
         <h1 class="titulo_no_centro">Calculadora Previdenciária</h1>
         <div class="div_center">
             <form id="form_bc">
-                <label for="base_calculo">Base de cálculo:</label>
-                <input type="text" id="base_calculo" onkeyup="calcular()" autofocus placeholder="Digite aqui a base de cálculo"   
+                <label for="base_calculo">Base de cálculo</label>
+                <input type="text"  id="base_calculo" onkeyup="calcular()" autofocus placeholder="Digite aqui a base de cálculo "   
                        onkeypress="return (event.charCode >= 48 && event.charCode <= 57) ||  
                        event.charCode == 44 || event.charCode == 0 ">
                 <!-- <button type="button" onclick="calcular()">Calcular</button> -->
               </form>  
         </div>
     </div>
-    <!-- <div id="div_resultado" class="div_center"> -->
     <div id="div_resultado" class="table-responsive">
         <table id="t01" class="table">
             <!-- <caption>Desmonstrativo do Cálculo</caption> -->
