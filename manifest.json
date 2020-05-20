@@ -1,0 +1,11 @@
+{
+  "name": "Departamento Pessoal Utilidades",
+  "short_name": "dp_util",
+  "theme_color": "#2c84cb",
+  "background_color": "#2196f3",
+  "display": "browser",
+  "Scope": "//https://evertonweyand.github.io/Departamento_Pessoal_Utilidades/",
+  "start_url": "/https://evertonweyand.github.io/Departamento_Pessoal_Utilidades/",
+  "icons": null,
+  "splash_pages": null
+}
