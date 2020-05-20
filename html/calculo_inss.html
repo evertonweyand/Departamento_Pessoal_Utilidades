@@ -19,11 +19,12 @@
         <div class="div_center">
             <form id="form_bc">
                 <label for="base_calculo">Base de cálculo</label>
-                <input type="text"  id="base_calculo" size="23" onkeyup="calcular()" autofocus placeholder="Digite aqui a base de cálculo "   
+                <input type="text"  id="base_calculo" size="23" onkeyup="calcular()" autofocus placeholder="Digite aqui a base de cálculo "
                        onkeypress="return (event.charCode >= 48 && event.charCode <= 57) ||  
                        event.charCode == 44 || event.charCode == 0 ">
-                <!-- <button type="button" onclick="calcular()">Calcular</button> -->
-              </form>  
+                <!-- <button type="button" class="button" onclick="calcular()">Calcular</button>   -->
+                <!-- <input type="button" value="Calcular" onClick="calcular()"> -->
+            </form>  
         </div>
     </div>
     <div id="div_resultado" class="table-responsive">
