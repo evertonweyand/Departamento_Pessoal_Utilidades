@@ -1,11 +1,16 @@
 {
   "name": "Departamento Pessoal Utilidades",
-  "short_name": "dp_util",
-  "theme_color": "#2c84cb",
-  "background_color": "#2196f3",
-  "display": "browser",
-  "Scope": "//https://evertonweyand.github.io/Departamento_Pessoal_Utilidades/",
-  "start_url": "/https://evertonweyand.github.io/Departamento_Pessoal_Utilidades/",
-  "icons": null,
-  "splash_pages": null
+  "short_name": "DP Útil",
+  "theme_color": "#005f97",
+  "background_color": "#005f97",
+  "display": "standalone",
+  "Scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/img/icons/doente.png ",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }

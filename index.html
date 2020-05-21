@@ -2,11 +2,12 @@
 <html lang="pt-br">
 <head>
 <title>Departamento Pessoal Descomplicado</title>
-<link rel="manifest" href="manifest.json">
+<link rel="manifest" href="/manifest.json">
 <meta charset="utf-8">
 <meta name="author" content="Everton Weyand" />
 <meta name="keywords" content="Previdência, INSS, IRRF, Renda">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#777">
 <style>
 * {
   box-sizing: border-box;
@@ -71,6 +72,20 @@ footer {
   }
 }
 </style>
+<script>
+    if ('serviceWorker' in navigator) {
+      console.log('ServiceWorker é suportado, vamos usar!');
+    } else {
+      console.log('ServiceWorker não é suportado.');
+    }
+
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('pwabuilder-sw.js')
+      .then(reg => console.info('registered sw', reg))
+      .catch(err => console.error('error registering sw', err));
+    } 
+         
+</script>
 </head>
 <body>
 
