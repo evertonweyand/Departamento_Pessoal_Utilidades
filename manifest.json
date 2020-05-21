@@ -7,7 +7,7 @@
   "lang" : "Portuguese",
   "icons": [
     {
-      "src": "/img/icons/doente.png ",
+      "src": "img/icons/doente.png ",
       "sizes": "512x512",
       "type": "image/png"
     }
