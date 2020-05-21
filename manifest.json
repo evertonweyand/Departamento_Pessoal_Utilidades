@@ -1,11 +1,11 @@
 {
-  "name": "Departamento Pessoal Utilidades",
-  "short_name": "DP Útil",
-  "theme_color": "#005f97",
-  "background_color": "#005f97",
-  "display": "standalone",
-  "Scope": "/",
-  "start_url": "/",
+	"name" : "Departamento Pessoal Utilidades",
+	"short_name" : "DP Útil",
+	"description" : "Utilitário para cálculos de Departamento Pessoal",
+	"start_url" : "index.html",
+	"display" : "standalone",
+	"orientation" : "portrait",
+  "lang" : "Portuguese",
   "icons": [
     {
       "src": "/img/icons/doente.png ",
@@ -13,4 +13,5 @@
       "type": "image/png"
     }
   ]
+  
 }
