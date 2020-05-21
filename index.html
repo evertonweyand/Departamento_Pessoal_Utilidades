@@ -84,6 +84,11 @@ footer {
       .then(reg => console.info('registered sw', reg))
       .catch(err => console.error('error registering sw', err));
     } 
+    
+
+    import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+    const el = document.createElement('pwa-update');
+    document.body.appendChild(el);    
          
 </script>
 </head>
