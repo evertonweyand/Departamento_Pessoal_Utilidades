@@ -3,6 +3,13 @@ h1 {
     color: blue;
 }
 
+/* # (cerquilha) seletor por ID */
+#h1_calculadora_prev{ /* coloquei desta forma para fins didático */
+  color: rgb(23, 62, 233);
+  text-shadow: 1px 1px 2px rgb(172, 224, 73);
+}
+
+/*  . (ponto) seletor por classe */
 .div_center{
   margin: auto;
   width: auto;
