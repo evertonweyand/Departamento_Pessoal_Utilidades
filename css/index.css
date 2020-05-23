@@ -20,7 +20,7 @@ header {
 section {
   display: -webkit-flex;
   display: flex;
-  height: 550px;
+  /* height: 550px; */
 }
 
 /* Style the navigation menu */
