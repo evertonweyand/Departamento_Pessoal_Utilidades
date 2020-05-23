@@ -15,6 +15,7 @@ h1 {
   width: auto;
   padding: 10px;
   text-align: center;
+  /* background-color: #f1f1f1; */
 }
 
 .titulo_no_centro {
@@ -22,6 +23,7 @@ h1 {
   width: 70%;
   padding: 10px;
   text-align: center;
+  /* background-color: #f1f1f1; */
   }
 
 .titulo_no_centro_com_borda {
@@ -30,6 +32,7 @@ h1 {
   border: 3px solid #73AD21;
   padding: 10px;
   text-align: center;
+  background-color: #f1f1f1;
   }
 /* 
   iframe{

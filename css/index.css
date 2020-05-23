@@ -10,9 +10,9 @@ body {
 /* Style the header */
 header {
   background-color: #666;
-  padding: 15px;
+  padding: 10px;
   text-align: center;
-  font-size: 35px;
+  font-size: 30px;
   color: white;
 }
 
@@ -42,9 +42,9 @@ nav ul {
 article {
   -webkit-flex: 3;
   -ms-flex: 3;
-  flex: 3;
-  background-color: #f1f1f1;
+  flex: 3;  
   padding: 10px;
+  /* background-color: #f1f1f1; tirei para o iframe ficar com a mesma cor */ 
 }
 
 /* Style the footer */
