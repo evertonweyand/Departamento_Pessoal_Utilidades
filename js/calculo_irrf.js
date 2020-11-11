@@ -9,8 +9,7 @@ function casas_decimais_2(valor){
         var int = svalor.substring( 0, svalor.indexOf('.'));
         var dec = svalor.substring( svalor.indexOf('.'), svalor.indexOf('.')+3);
         return Number( int + dec );
-    }
-    else {
+    } else {
         return valor;
     }
 }
@@ -32,7 +31,7 @@ function zerar_campos(){
 }
 
 
-function calcular(){
+function calcular_irrf(){
 
     zerar_campos();
 
