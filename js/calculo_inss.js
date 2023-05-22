@@ -37,7 +37,7 @@ function calcular_inss(){
     zerar_campos();
 
     //Tabela do INSS
-    const faixa1_vlr  = 1302.00;
+    const faixa1_vlr  = 1320.00;
     const faixa1_aliq =    7.50;
     const faixa2_vlr  = 2571.29;
     const faixa2_aliq =    9.00;
