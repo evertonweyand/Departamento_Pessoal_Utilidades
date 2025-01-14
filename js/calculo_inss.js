@@ -37,13 +37,13 @@ function calcular_inss(){
     zerar_campos();
 
     //Tabela do INSS
-    const faixa1_vlr  = 1412.00;
+    const faixa1_vlr  = 1518.00;
     const faixa1_aliq =    7.50;
-    const faixa2_vlr  = 2666.68;
+    const faixa2_vlr  = 2793.88;
     const faixa2_aliq =    9.00;
-    const faixa3_vlr  = 4000.03;
+    const faixa3_vlr  = 4190.83;
     const faixa3_aliq =   12.00;
-    const faixa4_vlr  = 7786.02;
+    const faixa4_vlr  = 8157.41;
     const faixa4_aliq =   14.00;
     
     var aBC_INSS = Number(document.querySelector('input#base_calculo').value.replace(',', '.') );
